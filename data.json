@@ -1,0 +1,53 @@
+[
+    {
+       "id": 1,
+       "name": "Nox at10 18k",
+       "price": 300,
+       "img": 
+       "https://www.padelproshop.com/22285-tm_thickbox_default/nox-at10-genius-18k-by-agustin-tapia-2023.jpg",
+       "cantidad": 1
+    },
+    {
+       "id": 2,
+       "name": "Head Delta Pro",
+       "price": 280,
+       "img":
+       "https://www.just4tennis.com/ecdata/stores/QPMDZ057/image/data/products/1642202924_Head_Delta_Pro_22_Padel_Racket_1.jpg",
+       "cantidad": 1
+    },
+    {
+       "id": 3,
+       "name": "Wilson Bela Pro",
+       "price": 400,
+       "img":
+       "https://www.ofertasdepadel.com/68550-large_default/wilson-bela-pro-v2-padel-2023.jpg",
+       "cantidad": 1
+    },
+    {
+       "id": 4,
+       "name": "Siux Electra St2",
+       "price": 350,
+       "img":
+       "https://padelzoom.es/wp-content/themes/busolightning/images/palas-imagenes/Siux/siux-electra-st2-stupa-pro.jpg",
+       "cantidad": 1
+       
+    },
+    {
+      "id": 5,
+      "name": "Siux Copper Edition",
+      "price": 290,
+      "img":
+      "https://media.spanskaspadar.se/2022/12/siux-sg-copper-edition-18k-7.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 6,
+      "name": "Varlion Lw Summum Prisma",
+      "price": 420,
+      "img":
+      "https://eur.varlion.com/10574-large_default/lw-summum-prisma-w-2022.jpg",
+      "cantidad": 1
+    }
+
+
+   ]

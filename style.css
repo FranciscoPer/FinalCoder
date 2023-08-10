@@ -1,0 +1,186 @@
+body {
+    margin: 0px;
+}
+/* Navbar */
+.nav-container {
+    position: sticky;
+    z-index: 3;
+    top: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    background-color: black
+}
+
+.navbar-logo {
+    justify-self: start;
+    margin-left: 20px;
+    color: white;
+    margin-top: 4vh;
+    cursor: pointer;
+}
+
+.ver-carrito {
+    font-size: 25px;
+    margin-right: 20px;
+    margin-top: 3.5vh;
+    cursor: pointer;
+}
+
+/* Banner Style */
+
+.banner {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: url(https://www.eldiadevalladolid.com/media/IMG/2023/EF766FE7-BDAB-FBC9-289711F7158B6C45.JPG)
+}
+
+.banner-container {
+    text-align: center;
+    padding: 15% 0;
+    color: white;
+    font-size: large;
+}
+
+.banner h1 {
+    margin: 0;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    font-size: 62px;
+    font-weight: bold;
+}
+
+.banner p {
+    font-size: 30px;
+    color: white;
+    opacity: 1;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Products Card */
+.shop-content {
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+  
+}
+.card {
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    font-family: arial;
+    margin: 15px;
+    object-fit: cover;
+    
+}
+.card > img {
+    width: 100%;
+    height: 250px;
+}
+.price {
+    color: grey;
+    font-size: 22px;
+}
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 60%;
+}
+.card button:hover {
+opacity: 0.7;
+}
+
+/* Modal content */
+.modal-container {
+    width: 80%;
+    margin: 0 10%;
+    max-height: 88vh;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+/* for the top */
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 12vh;
+    scrollbar-color: none;
+}
+
+.modal-container::-webkit-scrollbar{
+    display: none;
+}
+.modal-header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0a0909;
+    color: #fff;
+    width: 100%;
+}
+.modal-header-title {
+    justify-self: start;
+}
+
+.modal-header-button{
+    cursor: pointer;
+}
+
+.modal-container > .modal-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 10px;
+}
+
+.modal-container > div > img {
+    height: 120px;
+    width: 120px;
+}
+
+.total-content {
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/*  DELETE PRODUCT */
+.delete-product {
+    cursor: pointer;
+}
+    
+    /* Carrito units */
+.cantidad-carrito {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 4px;
+    top: 37px;
+    right: 14px;
+    position: absolute;
+    display: none;
+}
+
+.restar {
+    cursor: pointer;
+}
+
+.sumar {
+    cursor: pointer;
+}
